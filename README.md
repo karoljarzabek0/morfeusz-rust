@@ -12,6 +12,13 @@ Inspired by [Morfeusz](https://morfeusz.sgjp.pl/)
 3. Find the rules connected to the word provided by the user.
 4. Apply the rules to the word using data from the `.aff` file (NOT FINISHED!).
 
+## TO DO
+- fix the regex rules and clean up the code
+- figure out how to compile the dictionary to a binary file for fast access
+- create a lemmatizer and a generator for words
+- optimize storage of the dictionary by using a Trie Tree
+- try to apply this approach to other languages with robust ispell dictionaries
+
 ## Usage
 ```bash
 git clone https://github.com/karoljarzabek0/morfeusz-rust
