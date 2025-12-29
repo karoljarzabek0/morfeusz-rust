@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "exp_rust"
+name = "morfeusz-rust"
 version = "0.1.0"
