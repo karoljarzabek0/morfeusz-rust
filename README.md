@@ -1,5 +1,6 @@
 # Simple Morphological Analyzer for Polish
 Based on ispell dictionaries from [sjp.pl](https://sjp.pl/sl/ort/)
+
 Inspired by [Morfeusz](https://morfeusz.sgjp.pl/)
 
 > [!CAUTION]
@@ -13,13 +14,14 @@ Inspired by [Morfeusz](https://morfeusz.sgjp.pl/)
 
 ## Usage
 ```bash
-git clone [https://github.com/karoljarzabek0/morfeusz-rust](https://github.com/karoljarzabek0/morfeusz-rust)
+git clone https://github.com/karoljarzabek0/morfeusz-rust
 cd morfeusz-rust
 cargo build --release
-Run the program with:
 ```
+
+Run the program with:
 ```bash
-./target/release/morfeusz-rust test # Pass the query word to obtain all possible word variations
+./target/release/morfeusz-rust test # Example query for a word "test"
 ```
 Output:
 ```bash
